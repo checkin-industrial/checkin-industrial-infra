@@ -1,0 +1,28 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes / Helm
+secrets.yaml
+*-secrets.yaml
+charts/*.tgz
+
+# Env / secrets
+.env
+.env.local
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
